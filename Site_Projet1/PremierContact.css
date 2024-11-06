@@ -1,0 +1,228 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282828;
+  }
+  
+
+  .bandeau {
+    background-color: #1d1c1c;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a { 
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #00e5ff;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 15px;
+   
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Conteneur pour les colonnes */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Styles de base */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282828;
+    color: white;
+}
+
+/* Conteneur pour les colonnes */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Formulaire de contact (colonne gauche) */
+.contact-form {
+    flex: 2;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #00e5ff;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: white;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Informations de contact (colonne droite) */
+.contact-info {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #00e5ff;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #00e5ff;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: white;
+}
+
+.contact-info a {
+    color: #00e5ff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Style du bandeau et de la navigation */
+.bandeau {
+    background-color: #1d1c1c;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Responsive : passage en colonne unique sur petits écrans */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer {
+    background-color: #1d1c1c;
+    padding: 100px;
+    text-align: center;
+    font-family:'Cooper Black', sans serif;
+    color: #00e5ff;
+  }
+
+
+
+
+

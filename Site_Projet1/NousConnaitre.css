@@ -1,0 +1,104 @@
+/* Réglages généraux */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282828;
+  }
+  
+  /* Bandeau */
+  .bandeau {
+    background-color: #1d1c1c;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a { 
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #00e5ff;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Boutons */
+  button {
+    background-color: #d2c6c6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Cooper Black', sans-serif;
+    color: #00e5ff;
+  }
+  
+  
+  /* Images */
+  img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(156, 18, 18, 0.2);
+  }
+  
+
+
+  /* Pied de page */
+  footer {
+    background-color: #1d1c1c;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Cooper Black', sans-serif;
+    color: #00e5ff;
+    margin-top: 40px;
+  }
